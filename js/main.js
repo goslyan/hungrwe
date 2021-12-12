@@ -15,23 +15,3 @@ const trackScroll = () => {
     e.preventDefault()
     intervalId = setInterval(trackScroll, 25)
 })
-
-
- const forms = document.querySelectorAll('form')
- 
- let formId
- 
- const sendForm = (formId) => {
-     const form = document.getElementById(formId)
- 
-     console.log(form);
-}
-
- 
- forms.forEach((form, id) => {
-     form.addEventListener('submit', (event) => {
-         event.preventDefault()
-         formId = `form${id+1}`
-         sendForm(formId)
-     })
-}) 
