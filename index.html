@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,50 +8,369 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./img/logotip.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" defer></script>
 </head>
 <body>
-<header class="header">
-    <nav class="container navigation">
-        <a href="#" class="nav-item">HOME</a>
-        <a href="#" class="nav-item">ABOUT</a>
-        <a href="#" class="nav-item">TEAM</a>
-        <a href="#" class="nav-item">BOOKING</a>
-        <a href="index.html" class="nav-logo">
-            <img src="./img/logotip.svg" alt="Логотип" class="logo-img">
-        </a>
-        <a href="#" class="nav-item">MENU</a>
-        <a href="#" class="nav-item">GALERIE</a>
-        <a href="#" class="nav-item">EVENTS</a>
-        <a href="#" class="nav-item">CONTACT</a>
-    </nav>
-    <!-- /.container navigation -->
-</header>
-<!-- /.header -->
-<section class="section section--promo">
-    <div class="container block">
-        <p class="promo__text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
-        <div class="promo__main">
-            <h3 class="section__subtitle">RESTAURANT</h3>
-            <h1 class="promo__title title">hungry people</h1>
-            <div class="buttons">
-                <button class="button button--primary">BOOK TABLE</button>
-                <button class="button button--secondary">EXPLORE</button>
+    <header class="header">
+        <nav class="container navigation">
+            <a href="#" class="nav_item home_menu">Home</a>
+            <a href="#" class="nav_item abut_menu">About</a>
+            <a href="#" class="nav_item team_menu">Team</a>
+            <a href="#" class="nav_item booking_menu">Booking</a>
+            <a href="index.html" class="nav_logo nav_logo_menu"><img src="./img/logo.svg" alt="логотип" class="logo_img logo_img_disappear"></a>
+            <a href="#" class="nav_item menu_menu">Menu</a>
+            <a href="#" class="nav_item galerie_menu">Galerie</a>
+            <a href="#" class="nav_item events_menu">Events</a>
+            <a href="#" class="nav_item contact_menu">Contact</a>
+        </nav>
+        <!-- /.container navigation -->
+    </header>
+    <!-- /.header -->
+    <section class="section section_promo">
+        <div class="container block block_promo">
+            <div class="block_text">
+                <p class="promo_text">Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</p>
             </div>
-            <!-- /.buttons-->>
-            <a href="#" class="link--down"></a>
+            <!-- /.block_text -->
+            <div class="promo_main">
+                <h3 class="section_subtitle promo_subtitle">RESTAURANT</h3>
+                <h1 class="promo_title title">hungry people</h1>
+                <div class="buttons">
+                    <button class="button button_promo button_primary">BOOK TABLE</button>
+                    <button class="button button_promo button_secondary">EXPLORE</button>
+                </div>
+                <!-- /.buttons -->
+                <a href="#" class="link_down"></a>
+            </div>
+            <!-- /.promo_main -->
+            <div class="social_buttons">
+                <a href="#" class="social_link facebook"></a>
+                <a href="#" class="social_link twitter"></a>
+                <a href="#" class="social_link inst"></a>
+            </div>
+            <!-- /.social_buttons -->
         </div>
-        <!-- /.promo__main -->
-        <div class="social__buttons">
-            <a href="#" class="social__link facebook"></a>
-            <a href="#" class="social__link twitter"></a>
-            <a href="#" class="social__link inst"></a>
+        <!-- /.container block -->
+    </section>
+    <!-- /.section section_promo -->
+    <section class="section_about-us">
+        <div class="container block abutus_container">
+            <div class="section_text">
+                <h2 class="section_title title">About Us</h2>
+                <h3 class="block_text-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                <p class="block_text-desc">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <!-- /.section_text -->
+            <div class="block_img">
+                <img class="about-us_img abutus_img" src="./img/about-img.jpg" alt="Дать прогореть костру до углей, досок, при этом, веток не жалей">
+            </div>
+            <!-- /.block_img -->
         </div>
-        <!-- /.social__buttons -->
-    </div>
-    <!-- /.container block -->
-</section>
-<!-- /.section section--promo -->
+        <!-- /.container -->
+    </section>
+    <!-- /.section_about-us -->
+    <section class="section_master-chef">
+        <div class="chef_subtitle-container">
+            <h3 class="section_subtitle chef_subtitle">OUR TEAM</h3>
+        </div>
+        <!-- /.chef_subtitle-container -->
+        <div class="container block abutus_container">
+            <div class="block_img_alt">
+                <img class="about-us_img chef_img" src="./img/chef.jpg" alt="Повар спрашивает повара">
+            </div>
+            <!-- /.block_img -->
+            <div class="section_text">
+                <h2 class="section_title title title_banny alt">MASTER CHEF</h2>
+                <h3 class="block_text-subtitle alt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                <p class="block_text-desc alt">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <!-- /.section_text -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.section_master-chef-->
+    <section class="section_input">
+    </section>
+    <!-- /.section_input -->
+    <section class="section_book">
+        <div class="container block">
+            <div class="section_text">
+                <h2 class="section_title title">book a table</h2>
+                <form action="#" class="section_form" id="form1">
+                    <input type="text" class="input_form" name="name" placeholder="Name">
+                    <input type="email" class="input_form" name="email" placeholder="Email">
+                    <input type="phone" class="input_form" name="number" placeholder="Phone">
+                    <select name="gender" class="input_form select_form" id="select_1">
+                        <option value="" selected>People</option>
+                    </select>
+                    <input type="data" class="input_form" name="date" placeholder="Date (mm/dd)">
+                    <select name="time" class="input_form select_form" id="select_time">
+                        <option value="" selected>Time</option>
+                    </select>
+                    <button class="button button_form button_primary">BOOK now</button>
+                </form>
+            </div>
+            <!-- /.section_text -->
+            <div class="block_img cock_img_container">
+                <img class="about-us_img cock_img abutus_img" src="./img/cocks.png" alt="Время поджимает, но только вас. Не меня..">
+            </div>
+            <!-- /.block_img -->
+        </div>
+        <!-- /.container -->
+        <div class="container block time_container">
+            <p class="time_text">Mon - Fri: <strong>8PM - 10PM</strong>, Sat - Sun: <strong>8PM - 3AM</strong>, Phone: <strong>+40 729 131 637/+40 726 458 782</strong></p>
+        </div>
+        <!-- /.container block -->
+    </section>
+    <!-- /.section_book -->
+    <section class="section_chocolate">
+        <div class="chef_subtitle-container">
+            <h3 class="section_subtitle chef_subtitle"> specialties</h3>
+        </div>
+        <!-- /.chef_subtitle-container -->
+        <div class="container block chocolate_container">
+            <div class="block_img_alt">
+                <img class="about-us_img chef_img" src="./img/food.png" alt="хавка">
+            </div>
+            <!-- /.block_img -->
+            <div class="section_text">
+                <h2 class="section_title title title_banny alt">chocolate pancakes</h2>
+                <h3 class="block_text-subtitle alt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+                <p class="block_text-desc alt">Integer ullamcorper neque eu purus euismod, ac faucibus mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat diam convallis pharetra. Nulla facilisis semper laoreet.</p>
+            </div>
+            <!-- /.section_text -->
+        </div>
+        <!-- /.container -->
+        <div class="container block slider_container">
+            <div class="slider"></div>
+            <div class="slider slider_selected"></div>
+            <div class="slider"></div>
+        </div>
+    </section>
+    <!-- /.section_chocolate-->
+    <section class="delicious-menu">
+        <div class="section_text block_delicious_text">
+            <h2 class="section_title title title_banny">DELICIOUS MENU</h2>
+            <h3 class="block_text-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+        </div>
+        <!-- /.section_text -->
+        <div class="container delicious_menu-container">
+            <a href="" class="menu_item">SOUPE</a>
+            <a href="" class="menu_item">PIZZA</a>
+            <a href="" class="menu_item">PASTA</a>
+            <a href="" class="menu_item">DESERT</a>
+            <a href="" class="menu_item">WINE</a>
+            <a href="" class="menu_item">BEER</a>
+            <a href="" class="menu_item">DRINKS</a>
+        </div>
+        <!-- /.delicious_menu-container -->
+        <div class="menu_products container">
+            <div class="product_column">
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+            </div>
+            <!-- /.product_column -->
+            <div class="product_column">
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+            </div>
+            <!-- /.product_column -->
+            <div class="product_column column_3">
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+                <div class="product">
+                    <h3 class="product_name">PIZZA QUATRO STAGIONI . . . . 55,68 USD</h3>
+                    <p class="block_text-desc product_desc">Integer ullamcorper neque eu purus euismod</p>
+                </div>
+                <!-- /.product -->
+            </div>
+            <!-- /.product_column -->
+        </div>
+        <!-- /.menu_products -->
+    </section>
+    <!-- /.delicious-menu -->
+    <section class="section_events">
+        <div class="chef_subtitle-container">
+            <h3 class="section_subtitle chef_subtitle">specialties</h3>
+        </div>
+        <!-- /.chef_subtitle-container -->
+        <div class="event_container container block">
+            <div class="block_img_alt">
+                <img class="event_img" src="./img/widding.png" alt="свадьба">
+                <div class="description_img">
+                    <p class="description_text">weddings</p>
+                </div>
+                <!-- /.rotated_text_container -->
+            </div>
+            <!-- /.block_img -->
+            <div class="block_img">
+                <div class="description_img1">
+                    <p class="description_text">corporate pzrties</p>
+                </div>
+                <!-- /.rotated_text_container alternate_rotate -->
+                <img class="event_img" src="./img/pzrties.png" alt="корп">
+            </div>
+            <!-- /.block_img -->
+        </div>
+        <!-- /.container -->
+        <div class="events_text-container">
+            <p class="events_text time_text">For private events please call: <strong>+40 729 131 637/+40 726 458 782</strong> or use the contact form.</p>
+        </div>
+        <!-- /.events_text-container -->
+    </section>
+    <!-- /.section_events -->
+    <section class="random_imgs">
+        <div class="random_imgs-container container">
+            <img src="./img/mazzo.png" alt="маз" class="random_img">
+            <img src="./img/campfire.png" alt="кастрик" class="random_img">
+            <img src="./img/rest.png" alt="рестранчик" class="random_img">
+            <img src="./img/rest1.png" alt="рестранчик 1" class="random_img">
+        </div>
+        <!-- /.random_imgs-container container -->
+    </section>
+    <!-- /.random_imgs -->
+    <section class="section_contact">
+        <div class="section_text block_delicious_text">
+            <h2 class="section_title title title_banny title_bold">CONTACT</h2>
+            <h3 class="block_text-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus, molestie est a, tempor magna.</h3>
+        </div>
+        <!-- /.section_text -->
+        <form action="#" id="form2">
+            <div class="form_contact_container container">
+                <input type="text" class="input_form contact_input" name="name" placeholder="Name">
+                <input type="email" class="input_form contact_input" name="email" placeholder="Email">
+                <input type="phone" class="input_form contact_input before_message" name="number" placeholder="Phone">
+                <textarea name="message" id="message_contact" class="input_form contact_form" placeholder="Message"></textarea>
+            </div>
+            <!-- /.form_contact_container -->
+            <div class="addres-and-button_container container">
+                <div class="addres_container">
+                    <img src="./img/marker.png" alt="ок" class="contact_img">
+                    <p class="text_contact title_bold">5th London Boulevard, U.K.</p>
+                </div>
+                <!-- /.addres_container -->
+                <div class="addres_container number_container">
+                    <img src="./img/phone.png" alt="ок" class="contact_img">
+                    <p class="text_contact title_bold">+40 729 131 637/+40 726 458 782</p>
+                </div>
+                <!-- /.addres_container -->
+                <div class="addres_container mail_container">
+                    <img src="./img/mail.png" alt="ок" class="contact_img">
+                    <p class="text_contact title_bold">office@mindblister.com</p>
+                </div>
+                <!-- /.addres_container -->
+                <button class="button button_form button_primary button_contact button_contact_appear">SEND message</button>
+            </div>
+            <div class="button_adapt_container">
+                <button class="button button_form button_primary button_contact">SEND message</button>
+            </div>
+            <!-- /.addres_button_container -->
+        </form>
+    </section>
+    <!-- /.section_contact -->
+    <aside class="map">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A4394f8742cc216d342482502e047ae3410774095f3d25612f670c2d328874880&amp;width=100%25&amp;height=475&amp;lang=ru_RU&amp;scroll=false"></script>
+    </aside>
+    <!-- /.map -->
+    <footer class="footer">
+        <p class="copyright">© Copyright <strong>Mindblister</strong>  2019</p>
+    </footer>
+    <!-- /.footer -->
 </body>
 </html>
